@@ -1,0 +1,9 @@
+PROPERTY GUARDIAN V16
+
+Property Intelligence & AI-style operational insights
+- Added an intelligence snapshot to the Owner/Admin dashboard.
+- Shows current health, inspection count, recurring finding patterns and operational signals.
+- Adds simple trend-based health movement and asset service signals.
+- Surfaces recurring conditions from recorded issue history.
+- Clearly labels insights as recommendations, not diagnoses or structural guarantees.
+- Preserves V15 maintenance/vendor workflow, role-based notifications, Admin-only owner information requests, and logout/login stability.

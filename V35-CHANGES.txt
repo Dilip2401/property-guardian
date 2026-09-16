@@ -1,0 +1,7 @@
+V35 - Admin inspection inbox and full Guardian report access
+- Admin Inspections is now a dedicated review center rather than the customer-facing report page.
+- Lists all Guardian inspection submissions across properties, prioritizing pending Admin review.
+- Shows customer, Guardian, checklist completion, evidence count, Attention flags, formal findings and submission time.
+- Pending submissions have a direct "Review full Guardian report" action opening the existing full review modal.
+- Customer-facing inspection report remains unchanged for customer role.
+- Existing CRM, onboarding, scheduling, issue identification, login and role workflows preserved.

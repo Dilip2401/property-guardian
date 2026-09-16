@@ -1,0 +1,28 @@
+Property Guardian V9 — workflow and case-management upgrade
+
+Core workflow:
+Guardian observes → Admin reviews/validates → Owner decides → Admin coordinates → completion review.
+
+Inspection lifecycle:
+scheduled → in_progress → admin_review → admin_approved / sent_back.
+Customer sees the inspection only as an owner-visible report after Admin approval.
+
+Issue lifecycle:
+admin_review → sent_to_owner → owner_approved / owner_declined / more_info_requested.
+Admin can also mark a finding informational or send it back to the Guardian.
+
+Richer issue case data:
+- Guardian observation
+- first detected / last observed dates
+- occurrence count
+- reporter
+- Admin review decision, note, reviewer and timestamp
+- Owner decision, note, decision-maker and timestamp
+- AI summary/recommendation/confidence (recommendation only)
+
+New API endpoints:
+POST /api/admin/review-issue
+POST /api/owner/decision
+POST /api/admin/review-inspection
+
+V9 keeps V8 login/logout, Property Passport, evidence upload, checklist, Issues & AI, History and Admin Operations intact.

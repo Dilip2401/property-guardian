@@ -1,0 +1,2 @@
+Property Guardian V7 - Customer ↔ Guardian workflow
+Completed inspection reports, evidence, findings, AI summary, and owner decisions.

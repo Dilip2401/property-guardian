@@ -1,0 +1,16 @@
+PROPERTY GUARDIAN V13 — CUSTOMER EXPERIENCE
+
+V13 builds on V12 and focuses on the owner/customer experience.
+
+NEW
+- Owner Action Center on the customer Overview dashboard.
+- Clear contextual states: decisions waiting, information request in progress, inspection under Admin review, or no action required.
+- Quick actions to Latest Report, Property Passport and Property History.
+- Recent Property Activity panel.
+- Health Trend visualization using recorded inspection visits.
+- Responsive quick-action layout for smaller screens.
+- Preserved V12 logout/login fix and V10 Admin-only owner information-request notifications.
+
+PRINCIPLE
+- Keep the owner experience decision-oriented: We inspect. You decide.
+- Health trend is an operational indicator, not a structural or insurance guarantee.

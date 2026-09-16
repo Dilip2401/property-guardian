@@ -1,0 +1,15 @@
+PROPERTY GUARDIAN V18 — PREVENTIVE MAINTENANCE INTELLIGENCE
+
+- Added Preventive Care workspace for Admin and Owner.
+- Added maintenance plan data model with property-level and asset-linked plans.
+- Added 35-day maintenance calendar view.
+- Added upcoming / due-in-30-days / overdue / completed summary metrics.
+- Added Admin-only create preventive maintenance plan flow.
+- Added Admin completion recording for preventive plans.
+- Added Owner notification when Admin creates a preventive maintenance plan.
+- Added Property History and Audit Trail entries for planned/completed preventive maintenance.
+- Preserved Owner -> Admin-only more-information notification routing.
+- Preserved V12 logout/login stability fix and all V13-V17 functionality.
+- Added demo plans for HVAC preventive service and water-heater service review.
+- Added explicit UI language that preventive plans are operational reminders, not diagnoses.
+- Verified Node server syntax, browser JavaScript syntax, login, and maintenance-plan API on isolated test port.

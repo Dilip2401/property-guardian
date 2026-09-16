@@ -1,0 +1,7 @@
+V37 — Owner high-level inspection experience
+- Customer/Owner Inspections page now shows a high-level report summary instead of the Admin-level inspection detail.
+- Owner sees property health, inspection completion, evidence count, overall condition, report release state, and only findings requiring an owner decision.
+- Raw checklist rows, GPS details, raw evidence/photos and Admin review notes remain in the Admin review layer.
+- Owner inspection history shows approved reports only.
+- Pending Guardian submissions remain clearly marked as under Admin review.
+- Preserves V36 Admin review center, CRM onboarding, Guardian workflow and issue identification.

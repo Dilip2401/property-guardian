@@ -1,0 +1,1 @@
+Definitive login fix: guardian event listeners are bound only after Guardian login/session restoration.

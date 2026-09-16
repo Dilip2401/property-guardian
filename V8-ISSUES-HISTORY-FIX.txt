@@ -1,0 +1,1 @@
+V8 fixes the render crash that prevented Issues & AI and History from being rendered. It also improves issue AI display and the property timeline.

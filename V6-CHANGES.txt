@@ -1,0 +1,2 @@
+Property Guardian V6 - Production MVP workflow iteration
+Focus: real inspection flow, dynamic visits, checklist persistence, evidence, issue reporting, AI insight UX.

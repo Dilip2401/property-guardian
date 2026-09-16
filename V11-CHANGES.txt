@@ -1,0 +1,18 @@
+Property Guardian V11
+
+Focus: richer Property Passport, inspection trends, room intelligence and easier evidence interactions.
+
+Added:
+- Room condition cards with active finding/evidence counts and clickable room detail.
+- Room detail modal showing condition, findings, latest inspection context and recent evidence.
+- Click-to-enlarge evidence/photo viewer for inspection and case evidence.
+- Inspection comparison card: latest completed visit vs previous completed visit for health, checklist, evidence and finding count.
+- Asset service tracking interaction for Admin/Customer with service date, status and audit/history record.
+- Service-due indicator when last service is older than ~180 days.
+- More explanatory copy and interaction affordances throughout the Property Passport.
+- Seeded prior completed inspection so trend comparison is visible immediately.
+- Preserved V10 Admin-only owner more-information notification workflow.
+
+Notes:
+- Local JSON persistence remains demo/local-only.
+- Service date and trend calculations are operational UI features, not professional maintenance/structural assessments.

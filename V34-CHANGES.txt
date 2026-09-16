@@ -1,0 +1,9 @@
+V34 — Individual Finding & Attention Review
+
+- Guardian checklist Attention selections now require a specific observation note.
+- Attention flags are automatically surfaced as individually reviewable findings; duplicate formal issues are avoided per visit/checklist item.
+- Admin inspection review now has a dedicated full-report modal with an explicit “What needs Admin attention?” section.
+- Individual findings show title, room, severity, observation, occurrences and linked evidence count, with direct access to the full issue case.
+- Admin can review every checklist status and observation before approving/releasing or sending back the inspection.
+- Operations and inspection queues now open the full inspection review instead of bypassing the report.
+- Original Guardian evidence remains attributed to the Guardian; Admin review remains a separate decision layer.

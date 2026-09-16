@@ -1,0 +1,15 @@
+PROPERTY GUARDIAN V31 — ADMIN PROPERTY ONBOARDING
+
+Enhancement requested:
+- Added a prominent Admin-only “Add new property” action inside CRM & Control > Properties.
+- Added a single guided onboarding workflow with three steps:
+  1. Customer — create a new customer or select an existing customer; capture contact, correspondence and emergency details.
+  2. Property — capture Property Passport master data, service plan, access instructions, baseline and rooms.
+  3. Guardian & visit — assign the Guardian and schedule the first inspection with date, time and visit frequency.
+- New property onboarding creates the customer, property, default room records and first Guardian visit as one server-side operation.
+- Existing customers can be linked to a new property without overwriting their CRM profile.
+- New customer email uniqueness is validated.
+- Guardian receives a notification for the newly scheduled first visit.
+- Admin audit trail and property history record the onboarding event.
+- The older Operations “Create Property Passport” form was replaced by a shortcut into the same controlled CRM onboarding workflow to avoid duplicate property-creation paths.
+- Production note: local prototype may show a generated/entered temporary customer password; production should use an invitation/password-reset flow and never expose passwords in alerts or logs.

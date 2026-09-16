@@ -1,0 +1,42 @@
+Property Guardian V30 — Complete Operations + CRM Build
+
+Built from V21 baseline.
+
+ADMIN / SUPER ADMIN
+- Ultimate operational access across Owner and Guardian workflows.
+- Admin-only Customer CRM with dedicated customer information page.
+- Admin can edit customer and Guardian profile master data.
+- Admin can edit property CRM master data: owner, Guardian, location, property type, area, rooms, plan, access rule and baseline.
+- Admin can schedule, reassign, reschedule and correct inspection visits.
+- Admin can manage documents, financial records and property access records.
+- Admin can set issue SLAs and apply explicit workflow overrides; overrides are written to audit history.
+- Role Preview lets Admin inspect Owner and Guardian-facing summaries without impersonating the account.
+
+CRM / PROPERTY MASTER DATA
+- Property information is controlled by Admin and is the source of truth for upcoming Guardian visits and schedules.
+- Owner/Guardian assignment is maintained centrally.
+- Customer personal information is separated from property master data but linked through ownerId.
+
+OPERATIONS ROADMAP INCLUDED
+- Inspection scheduling and assignment
+- Guardian field-operation workflow from V21
+- Issue SLA / escalation controls
+- Property documents and records
+- Owner financial records / subscription tracking
+- Professional property report generation with print/save-to-PDF support
+- Security & access records
+- Production-readiness notes and PostgreSQL schema direction
+
+UX RULES
+- Notifications remain top-right only; no separate Notifications left navigation item.
+- Admin uses one Operations screen plus dedicated Customers and CRM & Control pages.
+- No new AI automation or auto-approval was introduced.
+- Admin control actions are explicit and auditable.
+
+DEMO ACCOUNTS
+Customer: owner@demo.com / owner123
+Guardian: guardian@demo.com / guardian123
+Admin: admin@demo.com / admin123
+
+NOTE
+This is a dependency-free local MVP. Production deployment still requires secure password hashing/authentication, PostgreSQL, object storage, real geofencing/access controls, backups, CSRF/rate limiting, authorization tests, email/SMS provider, payment provider and production AI integration if desired.

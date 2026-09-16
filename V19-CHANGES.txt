@@ -1,0 +1,9 @@
+Property Guardian V19 — Smart Operations Command Center
+
+- Added Admin-only Smart Operations Command Center.
+- Unified operational queue for owner information requests, inspection review, issue validation, quotes, active repairs, repair verification and preventive maintenance.
+- Added Overdue / Action required / Upcoming / Recent filters.
+- Added operational KPI cards and direct-action buttons.
+- Preserved V18 Preventive Care, V17 intelligence, V15 maintenance/vendor workflow, V14 notifications and Admin-only owner information requests.
+- Preserved V12 logout/login stability fix.
+- AI remains recommendation-only.

@@ -1,0 +1,13 @@
+V15 — Maintenance & Vendor Management
+
+- Added maintenance workflow: owner-approved issue → quote → owner approval → repair scheduling → repair in progress → completion review → Admin verification → closed.
+- Added vendor directory with verified partner/rating/contact metadata for the local prototype.
+- Added quote creation by Admin with vendor, estimated cost, date and scope notes.
+- Added owner quote approval with scheduled repair date/time and approval note.
+- Added Admin repair start, completion-review and verification actions.
+- Added before/after repair evidence upload for Admin work orders.
+- Added owner/admin maintenance dashboard with workflow progress and action summaries.
+- Added role-based maintenance access: Customer and Admin only; Guardian is not exposed to vendor/quote workflows.
+- Added maintenance notifications for quote readiness, owner quote approval and verified repair completion.
+- Preserved V10/V14 role-based notification routing and Admin-only owner information requests.
+- Local prototype remains JSON-persisted, demo-authenticated and local-file based; production migration should use secure auth, PostgreSQL/Supabase, object storage and real notification delivery.

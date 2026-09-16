@@ -1,0 +1,24 @@
+PROPERTY GUARDIAN V14 — NOTIFICATIONS & COMMUNICATION
+
+NEW
+- Role-based in-app notification center for Customer, Guardian and Admin.
+- Notification bell is available to every signed-in role.
+- Full Notifications screen with All / Unread / Action required filters.
+- Mark all notifications as read.
+- Clicking a notification marks it read and opens the related issue/report.
+- Owner information requests remain Admin-only.
+- Admin response to an owner information request notifies the Owner.
+- Admin release of an issue notifies the Owner that a decision is required.
+- Admin approval of an inspection notifies the Owner that the report is ready.
+- Admin sending an inspection back for correction notifies the assigned Guardian.
+- Notification history is persisted in the local JSON database.
+
+ROLE ROUTING
+- Admin: owner information requests and operational workflow alerts.
+- Customer: released findings, ready inspection reports and Admin responses.
+- Guardian: inspection correction requests.
+- Owner information-request notifications are never created for Guardian.
+
+SCOPE
+- V14 is still a local prototype. Notifications are in-app only; external email/SMS/push delivery is not yet connected.
+- Existing V12/V13 login/logout, Property Passport, inspection review, Issues & AI, History and Customer Experience workflows are preserved.

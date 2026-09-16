@@ -1,0 +1,1 @@
+V7.5: fixed invalid literal backslash-n in browser bootstrap and removed fragile nested templates.
