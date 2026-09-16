@@ -62,6 +62,7 @@ function staticFile(res,p){let rel=p==="/"?"index.html":p.replace(/^\/+/,"");let
 http.createServer(async(req,res)=>{
  const p=url.parse(req.url).pathname;
  if(p.startsWith("/uploads/")){let f=path.join(UPLOADS,path.basename(p));if(fs.existsSync(f)){res.writeHead(200,{"Content-Type":"image/jpeg","Cache-Control":"no-store"});return fs.createReadStream(f).pipe(res)}return send(res,404,{error:"not_found"})}
+ if(p==="/app"||p==="/login"){return staticFile(res,"/app.html")}
  if(p.startsWith("/api/")){
   if(req.method==="POST"&&p==="/api/login"){let b=await body(req),d=db(),u=d.users.find(x=>x.email.toLowerCase()===String(b.email||"").toLowerCase()&&x.password===b.password);if(!u)return send(res,401,{error:"Invalid email or password"});let sid=crypto.randomBytes(32).toString("hex");sessions.set(sid,{user:{id:u.id,role:u.role,name:u.name,email:u.email}});return send(res,200,{user:{id:u.id,role:u.role,name:u.name,email:u.email}},{'Set-Cookie':`sid=${sid}; HttpOnly; SameSite=Lax; Path=/`})}
   if(req.method==="POST"&&p==="/api/logout"){let m=(req.headers.cookie||"").match(/sid=([^;]+)/);if(m)sessions.delete(decodeURIComponent(m[1]));return send(res,200,{ok:true},{'Set-Cookie':"sid=; Max-Age=0; Path=/"})}
