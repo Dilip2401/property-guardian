@@ -1,5 +1,5 @@
 const http=require("http"),fs=require("fs"),path=require("path"),crypto=require("crypto"),url=require("url");
-const PORT=Number(process.env.PORT)||3000,HOST="0.0.0.0",ROOT=__dirname,PUBLIC=path.join(ROOT,"public"),DATA_DIR=path.join(ROOT,"data"),DATA=path.join(ROOT,"data","db.json"),UPLOADS=path.join(ROOT,"uploads");
+const PORT=Number(process.env.PORT)||3000,HOST="0.0.0.0",ROOT=__dirname,PUBLIC=ROOT,DATA_DIR=path.join(ROOT,"data"),DATA=path.join(ROOT,"data","db.json"),UPLOADS=path.join(ROOT,"uploads");
 fs.mkdirSync(DATA_DIR,{recursive:true});
 fs.mkdirSync(UPLOADS,{recursive:true});
 const sessions=new Map();
